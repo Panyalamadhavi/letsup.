@@ -1,0 +1,14 @@
+import unittest
+import math
+class testprime(unittest.testcase):
+     def test():
+         num=5
+         for i in range(2,num+1):
+          if  num%i==0:
+           break
+          else:
+            print("prime")
+         result=math.testprime(5)
+         self.assertequal(result,prime)
+         if__name__="__main__":
+             unittest.main()

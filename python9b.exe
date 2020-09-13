@@ -1,0 +1,13 @@
+list=list(range(1,1001))
+def getclosebyarmstrongnumberGen(list):
+    for item in list:
+        sum=0
+        temp=num
+        while temp>0:
+            digit=temp%10
+            sum+=digit**order
+            temp//=10
+            if num==sum:
+                yield item
+            else:
+                    yield iten+1
